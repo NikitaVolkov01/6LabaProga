@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="volkov_s:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/volkov_s_jar</output-path>
+    <root id="archive" name="volkov_s.jar">
+      <element id="module-output" name="volkov_s" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar" path-in-jar="/" />
+      <element id="library" level="project" name="com.google.code.gson:gson:2.8.6" />
+    </root>
+  </artifact>
+</component>

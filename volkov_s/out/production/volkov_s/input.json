@@ -1,0 +1,32 @@
+[{
+  "ID":			2,
+  "название":			"Name1",
+  "координаты":	{
+    "x":12.1,
+    "y":14
+  },
+  "дата создания":	"02.02.20",
+  "цена":		200,
+  "тип":			"VIP",
+  "event":		{
+    "id":11,
+    "name":"Event1",
+    "ticketsCount":2
+  }
+},
+  {
+    "id":			1,
+    "name":			"Name2",
+    "coordinates":	{
+      "x":22.1,
+      "y":24
+    },
+    "creationDate":	"22.02.20",
+    "price":		220,
+    "type":			"USUAL",
+    "event":		{
+      "id":21,
+      "name":"Event2",
+      "ticketsCount":1
+    }
+  }]

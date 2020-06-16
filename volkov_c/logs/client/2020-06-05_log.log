@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-06-05T03:35:19</date>
+  <millis>1591317319789</millis>
+  <sequence>0</sequence>
+  <logger>Client</logger>
+  <level>FINEST</level>
+  <class>Client</class>
+  <method>connect</method>
+  <thread>1</thread>
+  <message>Соединение установлено.</message>
+</record>
+<record>
+  <date>2020-06-05T03:35:23</date>
+  <millis>1591317323354</millis>
+  <sequence>1</sequence>
+  <logger>Client</logger>
+  <level>INFO</level>
+  <class>Client</class>
+  <method>get</method>
+  <thread>1</thread>
+  <message>Данные клиента: show null</message>
+</record>
+<record>
+  <date>2020-06-05T03:35:23</date>
+  <millis>1591317323355</millis>
+  <sequence>2</sequence>
+  <logger>Client</logger>
+  <level>INFO</level>
+  <class>Client</class>
+  <method>get</method>
+  <thread>1</thread>
+  <message>Элементы коллекции в строковом представлении: 
+ID: 1, название: wed, координаты: (2.0;2), дата создания: 2020-06-05, цена: 2, тип VIP, событие ee, количество билетов 3.0, event id 1.0
+ID: 2, название: wert, координаты: (11.0;11), дата создания: 2020-06-05, цена: 11, тип VIP, событие ert, количество билетов 3.0, event id 2.0
+</message>
+</record>
+</log>

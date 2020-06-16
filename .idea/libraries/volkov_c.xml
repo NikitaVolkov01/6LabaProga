@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="volkov_c">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/volkov_c/out/artifacts/volkov_c_jar/volkov_c.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

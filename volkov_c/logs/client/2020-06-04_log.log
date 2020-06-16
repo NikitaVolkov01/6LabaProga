@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-06-04T05:26:20</date>
+  <millis>1591237580431</millis>
+  <sequence>0</sequence>
+  <logger>Client</logger>
+  <level>FINEST</level>
+  <class>Client</class>
+  <method>connect</method>
+  <thread>1</thread>
+  <message>Соединение установлено.</message>
+</record>
+<record>
+  <date>2020-06-04T05:26:22</date>
+  <millis>1591237582702</millis>
+  <sequence>1</sequence>
+  <logger>Client</logger>
+  <level>INFO</level>
+  <class>Client</class>
+  <method>get</method>
+  <thread>1</thread>
+  <message>Данные клиента: show null</message>
+</record>
+<record>
+  <date>2020-06-04T05:26:22</date>
+  <millis>1591237582702</millis>
+  <sequence>2</sequence>
+  <logger>Client</logger>
+  <level>INFO</level>
+  <class>Client</class>
+  <method>get</method>
+  <thread>1</thread>
+  <message>Элементы коллекции в строковом представлении: 
+ID: 1, название: Name1, координаты: (12.1;14), дата создания: 2020-06-04, цена: 200, событие Event1, количество билетов 2.0, event id 11.0
+ID: 2, название: Name2, координаты: (22.1;24), дата создания: 2020-06-04, цена: 220, событие Event2, количество билетов 1.0, event id 21.0
+ID: 3, название: MYTICKET, координаты: (33.0;55), дата создания: 2020-06-04, цена: 555
+ID: 4, название: TicketForPigs, координаты: (33.0;44), дата создания: 2020-06-04, цена: 5555, событие Party, количество билетов 33.0, event id 0.0
+</message>
+</record>
+<record>
+  <date>2020-06-04T05:26:28</date>
+  <millis>1591237588442</millis>
+  <sequence>3</sequence>
+  <logger>Client</logger>
+  <level>INFO</level>
+  <class>Client</class>
+  <method>get</method>
+  <thread>1</thread>
+  <message>Данные клиента: history null</message>
+</record>
+<record>
+  <date>2020-06-04T05:26:28</date>
+  <millis>1591237588442</millis>
+  <sequence>4</sequence>
+  <logger>Client</logger>
+  <level>INFO</level>
+  <class>Client</class>
+  <method>get</method>
+  <thread>1</thread>
+  <message>История команд: 
+help
+history
+history
+info
+history
+show
+</message>
+</record>
+<record>
+  <date>2020-06-04T05:31:05</date>
+  <millis>1591237865786</millis>
+  <sequence>5</sequence>
+  <logger>Client</logger>
+  <level>INFO</level>
+  <class>Client</class>
+  <method>get</method>
+  <thread>1</thread>
+  <message>Данные клиента: help null</message>
+</record>
+<record>
+  <date>2020-06-04T05:31:05</date>
+  <millis>1591237865786</millis>
+  <sequence>6</sequence>
+  <logger>Client</logger>
+  <level>INFO</level>
+  <class>Client</class>
+  <method>get</method>
+  <thread>1</thread>
+  <message>&gt;&gt;&gt;ДОСТУПНЫЕ КОМАНДЫ&lt;&lt;&lt;
+info: вывести в стандартный поток вывода информацию о коллекции
+show: вывести в стандартный поток вывода все элементы коллекции в строковом представлении
+add {element}: добавить новый элемент в коллекцию
+update id {element}: обновить значение элемента коллекции, id которого равен заданному
+remove_by_id {id}: удалить элемент из коллекции по его id
+clear: очистить коллекцию
+save: сохранить коллекцию в файл
+execute_script {file_name}: считать и исполнить скрипт из указанного файла. В скрипте содержатся команды в таком же виде, в котором их вводит пользователь в интерактивном режиме.
+history: вывести последние 11 команд (без их аргументов)
+</message>
+</record>

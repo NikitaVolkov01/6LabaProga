@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-06-03T23:52:17</date>
+  <millis>1591217537229</millis>
+  <sequence>0</sequence>
+  <logger>Client</logger>
+  <level>FINEST</level>
+  <class>Client</class>
+  <method>connect</method>
+  <thread>1</thread>
+  <message>Соединение установлено.</message>
+</record>
+<record>
+  <date>2020-06-03T23:52:19</date>
+  <millis>1591217539287</millis>
+  <sequence>1</sequence>
+  <logger>Client</logger>
+  <level>INFO</level>
+  <class>Client</class>
+  <method>get</method>
+  <thread>1</thread>
+  <message>Данные клиента: info null</message>
+</record>
+<record>
+  <date>2020-06-03T23:52:19</date>
+  <millis>1591217539288</millis>
+  <sequence>2</sequence>
+  <logger>Client</logger>
+  <level>INFO</level>
+  <class>Client</class>
+  <method>get</method>
+  <thread>1</thread>
+  <message>Тип коллекции: class java.util.ArrayList
+Количество элементов: 2
+Дата инициализации: Wed Jun 03 23:50:37 MSK 2020
+</message>
+</record>
+<record>
+  <date>2020-06-03T23:52:25</date>
+  <millis>1591217545129</millis>
+  <sequence>3</sequence>
+  <logger>Client</logger>
+  <level>INFO</level>
+  <class>Client</class>
+  <method>get</method>
+  <thread>1</thread>
+  <message>Данные клиента: show null</message>
+</record>
+<record>
+  <date>2020-06-03T23:52:25</date>
+  <millis>1591217545130</millis>
+  <sequence>4</sequence>
+  <logger>Client</logger>
+  <level>INFO</level>
+  <class>Client</class>
+  <method>get</method>
+  <thread>1</thread>
+  <message>Элементы коллекции в строковом представлении: 
+[{id=2.0, name=Name1, coordinates={x=12.1, y=14.0}, creationDate=02.02.20, price=200.0, type=VIP, event={id=11.0, name=Event1, ticketsCount=2.0}
+id=1.0, name=Name2, coordinates={x=22.1, y=24.0}, creationDate=22.02.20, price=220.0, type=USUAL, event={id=21.0, name=Event2, ticketsCount=1.0}}]
+</message>
+</record>
+<record>
+  <date>2020-06-03T23:53:31</date>
+  <millis>1591217611180</millis>
+  <sequence>5</sequence>
+  <logger>Client</logger>
+  <level>INFO</level>
+  <class>Client</class>
+  <method>get</method>
+  <thread>1</thread>
+  <message>Данные клиента: show null</message>
+</record>
+<record>
+  <date>2020-06-03T23:53:31</date>
+  <millis>1591217611180</millis>
+  <sequence>6</sequence>
+  <logger>Client</logger>
+  <level>INFO</level>
+  <class>Client</class>
+  <method>get</method>
+  <thread>1</thread>
+  <message>Элементы коллекции в строковом представлении: 
+[{id=2.0, name=Name1, coordinates={x=12.1, y=14.0}, creationDate=02.02.20, price=200.0, type=VIP, event={id=11.0, name=Event1, ticketsCount=2.0}
+id=1.0, name=Name2, coordinates={x=22.1, y=24.0}, creationDate=22.02.20, price=220.0, type=USUAL, event={id=21.0, name=Event2, ticketsCount=1.0}}]
+</message>
+</record>
+<record>
+  <date>2020-06-03T23:54:25</date>
+  <millis>1591217665048</millis>
+  <sequence>7</sequence>
+  <logger>Client</logger>
+  <level>FINEST</level>
+  <class>Client</class>
+  <method>close</method>
+  <thread>1</thread>
+  <message>Сокет успешно закрыт</message>
+</record>
+<record>
+  <date>2020-06-03T23:54:25</date>
+  <millis>1591217665049</millis>
+  <sequence>8</sequence>
+  <logger>Client</logger>
+  <level>FINEST</level>
+  <class>Client</class>
+  <method>connect</method>
+  <thread>1</thread>
+  <message>Соединение установлено.</message>
+</record>
